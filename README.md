@@ -121,7 +121,7 @@ Workflow.run('handle-website-order', {
 
 ###Ok, What's Next?
 1. Install Workflow.js
-> npm install workflow
+> npm install workflow-swf-js
 
 1. If you haven't used the Simple Workflow Service before, you need to [register a domain](http://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-dg-register-domain-console.html)
    - you [may use more than one domain](http://docs.aws.amazon.com/amazonswf/latest/developerguide/swf-dev-domain.html) if you're implementation calls for it, but you need at least one.
