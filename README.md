@@ -21,7 +21,7 @@ Using SWF, you can avoid extensive boilerplate development for configuring and m
 
 ###What does Workflow.js do?
 
-Workflo.js simplifies the process of using the [AWS Simple Workflow Service](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SWF.html), with Node.js by providing a framework for defining your _Workflows_ and their _Tasks_ using a JSON schema.  Workflo provides a facade around the [AWS-SDK](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SWF.html), adding a promise implementation to the base library using [Q](https://github.com/kriskowal/q), with added functionality including:
+Workflow.js simplifies the process of using the [AWS Simple Workflow Service](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SWF.html), with Node.js by providing a framework for defining your _Workflows_ and their _Tasks_ using a JSON schema.  Workflo provides a facade around the [AWS-SDK](http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/SWF.html), adding a promise implementation to the base library using [Q](https://github.com/kriskowal/q), with added functionality including:
 
    - defining _Workflows_ using a JSON schema
    - automatic registration and validation of _Workflows_/_Tasks_ with the API
